@@ -1,0 +1,27 @@
+.remove-btn{
+    color : black; 
+    width: 100px;
+    height: 38px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    font-size: 13px;
+    font-weight: 300;
+    background: white;
+    cursor: pointer;
+}
+.cart-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: self-start;
+    margin: 5px;
+}
+
+@media(max-width:400px){
+    .cart-item{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: self-start;
+        margin: 5px;
+    }
+}

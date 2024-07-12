@@ -1,0 +1,43 @@
+
+
+.item{
+    width: 290px;
+
+}
+.item p{
+    margin: 6px 0px;
+}
+.item-prices{
+    display: flex;
+    gap: 20px;
+}
+.item-price-new{
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 6px;
+}
+.item-price-old{
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+    padding-top: 6px;
+}
+.item:hover{
+    transform: scale(1.05);
+    
+}
+.addtocart-btn{
+    color : black;
+    
+    width: 100px;
+    height: 38px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    font-size: 13px;
+    font-weight: 300;
+    background: white;
+    cursor: pointer;
+}
